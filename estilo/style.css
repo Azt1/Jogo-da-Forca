@@ -1,0 +1,45 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+background-image: url(../imgs/texture-bottom.jpg);
+}
+
+.container {
+    min-height: 94vh;
+    display: grid;
+    grid-template-columns: 0.2fr 2fr 0.2fr;
+    overflow-y: hidden;
+    padding: 1rem 2rem;
+  }
+  
+
+.botoes {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    gap: 2rem;
+}
+
+.começar, .adicionar {
+    background-color: #121214;
+    color: #fff;
+    border-radius: 25px;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 220px;
+    height: 90px;
+    font-weight: bold;
+  }
+  
+  
+  .botoes :hover {
+    background-color: #48f77f;
+    transition: ease-in-out 0.2s;
+    color: #121214;
+  }
+
