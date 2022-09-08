@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background-image: url(../imgs/texture-bottom.jpg);
+}
+
+.container {
+  min-height: 94vh;
+  display: grid;
+  grid-template-columns: 0.2fr 2fr 0.2fr;
+  overflow-y: hidden;
+  padding: 1rem 2rem;
+}
+
+.logo {
+  margin: 40px 0 0 40px;
+}
+
+.container-logo{
+display: flex;
+justify-content: center;
+justify-items: start;
+align-content: start;
+align-items: start;
+}
+
+.container-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 4em;
+  }
+  
+.container-center input {
+  border: 0px;
+  background-color: transparent;
+  height:250px;
+  font-weight: bold;
+  line-height: 48px;
+  font-size: 20px;
+  margin-left: 150px;
+  color: #fff; 
+}
+  
+::placeholder{
+    color: #FFF;
+}
+  
+input:focus {
+  outline: none;
+}
+
+.info {
+  display: flex;
+}
+
+.alerta {
+  width: 15px;
+  height: 15px;
+}
+
+.info-frase{
+  font-size: 14px;
+  color: #FFF;
+  font-weight: 600;
+  margin-left: 0.5em;
+}
+
+    
