@@ -21,7 +21,7 @@ body {
   margin: 40px 0 0 40px;
 }
 
-.container-logo{
+.container-logo {
 display: flex;
 justify-content: center;
 justify-items: start;
@@ -32,8 +32,8 @@ align-items: start;
 .container-center {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  margin-top: 4em;
+  justify-content: center;
+  padding: 4em;
   }
   
 .container-center input {
@@ -42,7 +42,7 @@ align-items: start;
   height:250px;
   font-weight: bold;
   line-height: 48px;
-  font-size: 20px;
+  font-size: 35px;
   margin-left: 150px;
   color: #fff; 
 }
@@ -57,18 +57,46 @@ input:focus {
 
 .info {
   display: flex;
+  margin: 8rem 0 0 3rem;
 }
 
 .alerta {
   width: 15px;
   height: 15px;
+  margin-top: 0.1rem;
 }
 
-.info-frase{
+.info-frase {
   font-size: 14px;
   color: #FFF;
   font-weight: 600;
   margin-left: 0.5em;
+}
+
+.botoes {
+  display: flex;
+  justify-content:  flex-start;
+  padding: 0.5em;
+  gap: 20rem;
+  margin-top: 3rem;
+  }
+  
+.btn-salvar , .btn-cancelar {
+  background-color: #121214;
+  color: #fff;
+  border-radius: 25px;
+  text-transform: uppercase;
+  cursor: pointer;
+  width: 180px;
+  height: 75px;
+  font-weight: bold;
+}
+
+
+.botoes :hover {
+  background-color: #48f77f;
+  transition: ease-in-out 0.2s;
+  color: #121214;
 }
 
     
