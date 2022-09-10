@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+body {
+    background-image: url(../assets/texture-bottom.jpg);
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;
+    padding: 1rem 2rem;
+}
+
+.container-imagem {
+    height: 300px;
+    align-items: center;
+    margin: 3rem auto 0 auto;
+}
+
+.imagem {
+    height: 100%;
+}
+
+.palavra {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 3em;
+    margin-top: 50px;
+    gap: 1rem;
+}
+
+.teclas {
+    margin: 3rem auto 0 auto; 
+}
+
+button {
+    background-color: #121214;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 15px;
+    width: 50px;
+    height: 35px;
+    margin-bottom: 1rem;
+    text-decoration: none;
+}
+

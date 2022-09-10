@@ -6,7 +6,7 @@
 }
 
 body {
-  background-image: url(../imgs/texture-bottom.jpg);
+  background-image: url(../assets/texture-bottom.jpg);
 }
 
 .container {
@@ -17,16 +17,12 @@ body {
   padding: 1rem 2rem;
 }
 
-.logo {
-  margin: 40px 0 0 40px;
-}
-
 .container-logo{
-display: flex;
-justify-content: center;
-justify-items: start;
-align-content: start;
-align-items: start;
+  display: flex;
+  justify-content: center;
+  justify-items: start;
+  align-content: start;
+  align-items: start;
 }
 
 .botoes {
