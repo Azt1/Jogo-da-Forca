@@ -15,8 +15,19 @@ body {
   grid-template-columns: 0.2fr 2fr 0.2fr;
   overflow-y: hidden;
   padding: 1rem 2rem;
-  }
-  
+}
+
+.logo {
+  margin: 40px 0 0 40px;
+}
+
+.container-logo{
+display: flex;
+justify-content: center;
+justify-items: start;
+align-content: start;
+align-items: start;
+}
 
 .botoes {
   display: flex;
@@ -25,34 +36,26 @@ body {
   gap: 2rem;
 }
 
-.começar, .adicionar {
+.comecar, .adicionar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #121214;
   color: #fff;
   border-radius: 25px;
-  text-transform: uppercase;
+  text-transform: capitalize;
   cursor: pointer;
-  width: 220px;
-  height: 90px;
+  width: 260px;
+  height: 100px;
   font-weight: bold;
-  }
-  
+  text-decoration: none;
+}
   
 .botoes :hover {
   background-color: #48f77f;
   transition: ease-in-out 0.1s;
   color: #121214;
-  border-radius: 25px;
 }
 
-.logo {
-  margin: 40px 0 0 40px;
-}
-.container-logo{
-display: flex;
-justify-content: center;
-justify-items: start;
-align-content: start;
-align-items: start;
-}
 
 

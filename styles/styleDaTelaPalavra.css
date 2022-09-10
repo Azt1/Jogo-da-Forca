@@ -82,14 +82,18 @@ input:focus {
   }
   
 .btn-salvar , .btn-cancelar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #121214;
   color: #fff;
   border-radius: 25px;
-  text-transform: uppercase;
+  text-transform: capitalize;
   cursor: pointer;
-  width: 180px;
-  height: 75px;
+  width: 260px;
+  height: 100px;
   font-weight: bold;
+  text-decoration: none;
 }
 
 
