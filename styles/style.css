@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-  min-height: 94vh;
+  min-height: 100vh;
   display: grid;
   grid-template-columns: 0.2fr 2fr 0.2fr;
   overflow-y: hidden;
@@ -51,4 +51,18 @@ body {
   background-color: #48f77f;
   transition: ease-in-out 0.1s;
   color: #121214;
+}
+
+@media (max-width: 360px) {
+
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .comecar, .adicionar {
+    width: 200px;
+    height: 100px;
+    font-size: 15px;
+  }
 }
