@@ -1,22 +1,21 @@
+let chances = 6;
+let palavraSorteada
 const palavras = [
     'abelha', 'urso', 'professor', 'macaco' , 'russo'
 ];
 
-var palavraSorteada;
-var chances = 6;
 
+criarPalavraSecreta();
 function criarPalavraSecreta() {
     const ip = parseInt(Math.random() * palavras.length)
     
     let palavraSorteada;
     palavraSorteada = palavras[ip];
-    console.log(palavraSorteada)    
+    console.log(palavraSorteada);
 }
 
-criarPalavraSecreta();
-
-function mostrarPalavraNaTela() {
-    const palavraTela = document.getElementsByClassName(".palavra")
+mostrarPalavraTela();
+function mostrarPalavraTela() {
+    const palavraTela = document.getElementsByClassName("palavra");
     palavraTela.innerHTML = palavraSorteada;
 }
-console.log(palavraTela)
