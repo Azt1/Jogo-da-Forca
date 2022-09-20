@@ -1,5 +1,6 @@
 let chances = 6;
 let palavraSorteada
+let lista = [];
 const palavras = [
     'abelha', 'urso', 'professor', 'macaco' , 'russo'
 ];
@@ -17,5 +18,15 @@ function criarPalavraSecreta() {
 mostrarPalavraTela();
 function mostrarPalavraTela() {
     const palavraTela = document.getElementsByClassName("palavra");
-    palavraTela.innerHTML = palavraSorteada;
+    palavraTela.innerHTML = "";
+
+    for(i = 0; i < palavraSorteada.length; i++) {
+        if(lista[i] == undefined){
+            lista[i] = "&nbsp;"
+            palavraTela.innerHTML = palavraTela.innerHTML + "<span class='letras'>" + lista[i] +"</span>"
+        }
+        else {
+            palavraTela.innerHTML = palavraTela.innerHTML + "<span class='letras'>" + lista[i] +"</span>"
+        }
+    }
 }

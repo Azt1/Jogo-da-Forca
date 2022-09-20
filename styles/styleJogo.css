@@ -37,6 +37,16 @@ body {
     gap: 1rem;
 }
 
+.letras {
+    width: 16px;
+    text-align: center;
+    border-bottom: 3px solid white;
+    color: white;
+    padding: 2px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
 button {
     background-color: #121214;
     color: #fff;
