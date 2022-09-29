@@ -1,23 +1,29 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/style.css">
-    <title>1</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Bootstrap 4 CDN -->
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"> -->
+
+  <title>Jogo da Forca</title>
 </head>
 <body>
-    <main class="container">
-        <div class="container-logo">
-            <img src="./assets/logo.png" alt="Logo da alura">
-        </div>
+<div class="container">
+  <h1 class="text-center">Jogo da Forca</h1>
+  <div class="float-right">Tentativas: <span id='mistakes'>0</span> of <span id='maxWrong'></span></div>
+  <div class="text-center">
+    <img id='hangmanPic' src="./assets/trysAssets/try0.svg" alt="">
+    <p>Adivinhe a linguagem de programação:</p>
+    <p id="wordSpotlight">A palavra a ser adivinhada vai aqui
+    </p>
+    <div id="keyboard"></div>
+    <button class="btn btn-info" onclick="reset()">Reset</button>
+  </div> 
+</div>
 
-
-        <div class="botoes">
-          <a class="comecar">Começar a jogar</a>
-          <a href="./telaPalavra.html" class="adicionar"> Adicionar nova palavra</a>
-        </div>
-    </main>
+<script src='./script.js'></script>
 </body>
 </html>
